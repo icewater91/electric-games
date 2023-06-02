@@ -1,4 +1,4 @@
-import { Game, createGame, editGame, getGame } from "../utils/crud";
+import { Game, editGame, getGame } from "../utils/crud";
 import { form, formButton, formInputs } from "./elements";
 
 const run = async function () {

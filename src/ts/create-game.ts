@@ -1,7 +1,6 @@
 import { Game, createGame } from "../utils/crud";
 import { form, formButton } from "./elements";
 
-console.log(form, "here");
 form?.addEventListener("submit", async (event) => {
   event.preventDefault();
   if (!form) return;
@@ -19,7 +18,6 @@ form?.addEventListener("submit", async (event) => {
       releaseYear: parseInt(String(values.releaseYear)),
       description: String(values.description),
     };
-    console.log(values);
 
     await createGame(game);
     formButton && (formButton.innerHTML = "Submit");
