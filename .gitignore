@@ -2,6 +2,7 @@
 
 # Dependencies
 /node_modules
+/dist
 /_studio/node_modules
 /_studio/.pnp
 /_studio/.pnp.js
