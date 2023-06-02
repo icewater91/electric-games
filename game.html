@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electric Game</title>
+    <link rel="stylesheet" href="./src/css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <a href="/index.html">
+          <h1>Electric Games.</h1>
+        </a>
+      </div>
+      <button class="navbar__button navbar__button-edit">Edit Game</button>
+    </nav>
+
+    <div class="game-card">
+      <div class="game-card__image-container">
+        <img class="game-card__image" width="700" src="" alt="Project image" />
+      </div>
+      <div class="game-card__content">
+        <h2 class="game-card__title">Title:</h2>
+        <div class="game-card__spancontainer">
+          <span class="game-card__releaseYear">Release Year: </span>
+          <span class="game-card__platform">Platform: </span>
+        </div>
+        <p class="game-card__description">Description:</p>
+        <div class="game-card__emptySpace" aria-hidden></div>
+        <button class="game-card__delete button">Delete</button>
+      </div>
+    </div>
+    <script type="module" src="/src/ts/game.ts"></script>
+  </body>
+</html>

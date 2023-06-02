@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/main.css" />
+  </head>
+  <body>
+    <form class="form">
+      <div class="form__group">
+        <label class="form__label" for="title">Title:</label>
+        <input
+          class="form__input"
+          type="text"
+          id="title"
+          name="title"
+          aria-describedby="Populates title of the game"
+          required
+        />
+      </div>
+      <div class="form__group">
+        <label class="form__label" for="platform">Platform:</label>
+        <input
+          class="form__input"
+          type="text"
+          id="platform"
+          name="platform"
+          aria-describedby="Populates the platform of the game"
+          required
+        />
+      </div>
+      <div class="form__group">
+        <label class="form__label" for="releaseYear">Released Year:</label>
+        <input
+          class="form__input"
+          type="number"
+          id="releaseYear"
+          name="releaseYear"
+          aria-describedby="Populates the release year of the game"
+          required
+        />
+      </div>
+      <div class="form__group">
+        <label class="form__label" for="image">Image:</label>
+        <input
+          class="form__input form__input--file"
+          type="file"
+          id="image"
+          name="image"
+          accept="image/*"
+          aria-describedby="Populates the image of the game"
+          required
+        />
+      </div>
+      <div class="form__group">
+        <label class="form__label" for="description">Description:</label>
+        <textarea
+          class="form__input"
+          type="text"
+          id="description"
+          name="description"
+          rows="6"
+          aria-describedby="Populates the description of the game"
+          required
+        ></textarea>
+      </div>
+      <button class="form__button button" type="submit">Submit</button>
+    </form>
+    <script type="module" src="/src/ts/create-game.ts"></script>
+  </body>
+</html>

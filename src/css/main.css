@@ -1,0 +1,8 @@
+@import "./variables.css";
+@import "./reset.css";
+@import "./base.css";
+@import "./modules/header.css";
+
+@import "./modules/card.css";
+@import "./modules/game.css";
+@import "./modules/form.css";

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Roboto&family=Roboto+Condensed&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--secondary-light);
+}
+
+.button {
+  cursor: pointer;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: var(--secondary-dark);
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #7c3aed;
+}
